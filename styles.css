@@ -78,7 +78,7 @@ width: 565px;
 height: 492px;
 left: 610px;
 top: 109px;
-background-image: url(../images/square.svg);
+background: url(./images/square.svg);
 
   
 }
@@ -235,7 +235,7 @@ top: 16px;
 
 .menu {
    display: flex;
-   position:absolute;
+   position: absolute;
    top: 660px;
    flex-flow: row nowrap;
    justify-content: space-around;
@@ -250,5 +250,17 @@ font-weight: 900;
 font-size: 22px;
 color: #C2C2C2;
 max-width: 1160px;
+padding-left: 200px;
 
+}
+
+.line_small {
+   
+position: absolute;
+width: 19px;
+height: 0px;
+left: 438px;
+top: 55px;
+border: 1px solid #151F32;
+   
 }
