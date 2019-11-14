@@ -32,7 +32,7 @@ header{
 }
 
 .middle-menu-bar{
-    width: calc(1060px - 100px - 65px - 100px);
+    width: calc(100% - 100px - 65px - 100px);
     text-align: center;
 }
 
@@ -58,8 +58,8 @@ header{
 }
 
 .middle-menu-bar .menu-link{
-    margin-left: 50px;
-    margin-right: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .right-menu-link{
